@@ -16,7 +16,7 @@ services:
       - "5000:5000"
     environment:
       - NODE_ENV=production
-      - MONGO_URI=mongodb://mongo:27017/easycase
+      - MONGO_URI=mongodb+srv://easycase_admin:Vanuja%402887@easycasecluster.asoirjg.mongodb.net/easycase
     depends_on:
       - mongo
 
